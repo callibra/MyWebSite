@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
-        <img src="../../../../public/logo.netlify.svg" alt="">
+        <img src="../../../../public/logo.netlify.svg" alt="" width="200px" height="200px">
       </main>
 
       <Footer />
