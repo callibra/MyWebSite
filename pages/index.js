@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to my React App!" />
         <img src="../../../../public/logo.netlify.svg" alt="" width="200px" height="200px">
       </main>
 
