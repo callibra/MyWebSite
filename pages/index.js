@@ -12,6 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
+        <img src="../../../../public/1.png" alt="">
       </main>
 
       <Footer />
