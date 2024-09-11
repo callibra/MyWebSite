@@ -12,7 +12,9 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my React App!" />
-        <img src="../../../../public/logo.netlify.svg" alt="" width="200px" height="200px">
+        <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p>
       </main>
 
       <Footer />
