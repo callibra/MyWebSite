@@ -12,12 +12,22 @@ body {
 }
 
 main {
+  width: 90vw;
+  height: 100vw;
   padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
 code {
@@ -33,4 +43,22 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .main-image {
+    width: 90vw; 
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .main-image {
+    width: 75vw; 
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .main-image {
+    width: 60vw; 
+  }
 }
