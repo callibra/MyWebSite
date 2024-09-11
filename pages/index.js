@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my React App!" />
+        <Header title="Welcome to my first React App!" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
